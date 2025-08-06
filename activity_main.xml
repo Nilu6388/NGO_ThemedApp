@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="16dp">
+
+    <ImageView android:src="@drawable/logo" android:layout_width="100dp"
+        android:layout_height="100dp" android:contentDescription="NGO Logo"/>
+    <TextView android:text="My NGO" android:textSize="24sp" android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+    <TextView android:text="Mission: Helping people everywhere" android:layout_marginTop="8dp"/>
+
+    <Button android:onClick="goToForm" android:text="Volunteer Form"
+        android:layout_marginTop="24dp"/>
+    <Button android:onClick="goToAbout" android:text="About Us" android:layout_marginTop="8dp"/>
+</LinearLayout>
